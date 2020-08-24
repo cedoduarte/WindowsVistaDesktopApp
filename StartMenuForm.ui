@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartMenuForm</class>
+ <widget class="QWidget" name="StartMenuForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>450</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>450</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_2">
+   <property name="spacing">
+    <number>6</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QListWidget" name="apps_listWidget">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>25</width>
+       <height>25</height>
+      </size>
+     </property>
+     <item>
+      <property name="text">
+       <string>Messenger</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/messenger.png</normaloff>:/messenger.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Reproductor</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/mediaplayer.png</normaloff>:/mediaplayer.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bloc de notas</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/notepad.png</normaloff>:/notepad.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Grabador de discos</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/disk.png</normaloff>:/disk.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Calendario</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/calendar.png</normaloff>:/calendar.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Monitor</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/monitor.png</normaloff>:/monitor.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Cartas</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/cards.png</normaloff>:/cards.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ajedrez</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/chess.png</normaloff>:/chess.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Poker</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/cards2.png</normaloff>:/cards2.png</iconset>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Buscaminas</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/minesweeper.png</normaloff>:/minesweeper.png</iconset>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>77</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="frameShape">
+          <enum>QFrame::NoFrame</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="res.qrc">:/users.png</pixmap>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>76</width>
+           <height>17</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QListWidget" name="system_listWidget">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(78, 96, 140);</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::NoFrame</enum>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <item>
+        <property name="text">
+         <string>Documentos</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/documents.png</normaloff>:/documents.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Descargas</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/downloads.png</normaloff>:/downloads.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Música</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/music.png</normaloff>:/music.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Videos</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/videos.png</normaloff>:/videos.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Imágenes</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/images.png</normaloff>:/images.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Escritorio</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/desktop.png</normaloff>:/desktop.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PC</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/pc.png</normaloff>:/pc.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Internet</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/internet.png</normaloff>:/internet.png</iconset>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fondo de escritorio</string>
+        </property>
+        <property name="icon">
+         <iconset resource="res.qrc">
+          <normaloff>:/screen.png</normaloff>:/screen.png</iconset>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
